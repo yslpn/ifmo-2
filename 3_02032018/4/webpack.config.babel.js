@@ -5,7 +5,7 @@ export default {
       "loader": "babel-loader",
       "query": {
         "babelrc": false,
-        "plugins": ["transform-function-bind"],
+        "plugins": ["transform-pipeline-operator"],
         "presets": [
           ["env", {
             "modules": false

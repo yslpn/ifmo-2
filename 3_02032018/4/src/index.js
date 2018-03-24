@@ -1,4 +1,4 @@
-const summet = x => x + x;
+const summer = x => x + x;
 const powerer = x => x ** x;
 const multiplyer = x => x * x;
 
