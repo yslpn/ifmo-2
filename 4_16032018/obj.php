@@ -9,4 +9,4 @@ $ig = new class {
   function getFullName() { return 'Mr.' . $this->first . ' ' . $this->second; }
 };
 
-ech($ig -> getFullName()); //Mr. Yaroslav Sleukhin
+echo($ig -> getFullName()); //Mr. Yaroslav Sleukhin
