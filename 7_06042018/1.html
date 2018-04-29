@@ -1,0 +1,17 @@
+</script><button>Hit me!</button>  
+<script>{
+       (b => {
+               b.style.zoom = '200%';
+               b.addEventListener(
+                 'click',
+                    () => { 
+                      async function five(){ 
+                        return '5';
+                      }
+                      // как получить это значение извне функции и вывести его в  Out.log?
+                      five().then(x => console.log(x));
+                  }
+               );
+       })(document.querySelector('button'));
+}</script>
+<a target="_blank" href="https://kodaktor.ru/06042018_2">Вторая часть</a>
